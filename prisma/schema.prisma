@@ -8,21 +8,23 @@ datasource db {
 }
 
 enum Size {
-  XS
-  S
-  M
-  L
-  XL
-  XXL
-  XXXL
+  
+  S_10
+  M_15
+  L_20
+  XL_40
+  XL_50
+
 }
 
+
 enum Gender {
-  men
-  women
-  kid
-  unisex
+  contrato
+  prepago
+  fibra_tv
+  
 }
+
 
 enum Role {
   admin

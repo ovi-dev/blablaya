@@ -30,6 +30,6 @@ export interface ProductImage {
 }
 
 
-type Category = 'men'|'women'|'kid'|'unisex';
-export type Size = 'XS'|'S'|'M'|'L'|'XL'|'XXL'|'XXXL';
-export type Type = 'shirts'|'pants'|'hoodies'|'hats';
+type Category = 'contrato' | 'prepago' | 'fibra_tv';
+export type Size = "S_10" | "M_15" | "L_20" | "XL_40" | "XL_50";
+export type Type = 'vodafone' | 'movistar' | 'orange' | 'digi';

@@ -13,7 +13,7 @@ interface Props {
   categories: Category[];
 }
 
-const sizes = ["XS", "S", "M", "L", "XL", "XXL"];
+const sizes = ["S_10" , "M_15" , "L_20" , "XL_40" , "XL_50"];
 
 interface FormInputs {
   title: string;
@@ -23,7 +23,7 @@ interface FormInputs {
   inStock: number;
   sizes: string[];
   tags: string;
-  gender: "men" | "women" | "kid" | "unisex";
+  gender: 'contrato' | 'prepago' | 'fibra_tv';
   categoryId: string;
 
   images?: FileList;
