@@ -130,7 +130,7 @@ export const PlaceOrder = () => {
             })
           }
         >
-          Colocar orden
+          Pagar
         </button>
       </div>
     </div>

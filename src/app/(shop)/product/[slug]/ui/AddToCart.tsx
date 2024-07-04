@@ -46,7 +46,7 @@ export const AddToCart = ({ product }: Props) => {
     <>
       {posted && !size && (
         <span className="mt-2 text-red-500 fade-in">
-          Debe de seleccionar una talla*
+          Debe de seleccionar una tarifaa*
         </span>
       )}
 

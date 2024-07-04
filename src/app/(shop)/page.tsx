@@ -30,8 +30,8 @@ export default async function Home({ searchParams }: Props) {
   return (
     <>
       <Title
-        title="Tienda"
-        subtitle="Todos los productos"
+        title="Tarifas Movil"
+        subtitle="Todas las Tarifas de Movil"
         className="mb-2"
       />
 

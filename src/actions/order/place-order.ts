@@ -49,8 +49,8 @@ export const placeOrder = async (
       const subTotal = product.price * productQuantity;
 
       totals.subTotal += subTotal;
-      totals.tax += subTotal * 0.15;
-      totals.total += subTotal * 1.15;
+      totals.tax += subTotal * 0.21;
+      totals.total += subTotal * 1.21;
 
       return totals;
     },

@@ -132,7 +132,7 @@ export const ProductForm = ({ product, categories }: Props) => {
         </div>
 
         <div className="flex flex-col mb-2">
-          <span>Price</span>
+          <span>Precio</span>
           <input
             type="number"
             className="p-2 border rounded-md bg-gray-200"
@@ -150,16 +150,16 @@ export const ProductForm = ({ product, categories }: Props) => {
         </div>
 
         <div className="flex flex-col mb-2">
-          <span>Gender</span>
+          <span>Tarifa</span>
           <select
             className="p-2 border rounded-md bg-gray-200"
             {...register("gender", { required: true })}
           >
             <option value="">[Seleccione]</option>
-            <option value="men">Men</option>
-            <option value="women">Women</option>
-            <option value="kid">Kid</option>
-            <option value="unisex">Unisex</option>
+            <option value="men">Contrato</option>
+            <option value="women">Prepago</option>
+            <option value="kid">Fibra</option>
+            <option value="unisex">Fitra TV</option>
           </select>
         </div>
 
@@ -194,7 +194,7 @@ export const ProductForm = ({ product, categories }: Props) => {
 
         {/* As checkboxes */}
         <div className="flex flex-col">
-          <span>Tallas</span>
+          <span>Trifas</span>
           <div className="flex flex-wrap">
             {sizes.map((size) => (
               // bg-blue-500 text-white <--- si está seleccionado

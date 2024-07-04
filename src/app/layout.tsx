@@ -6,10 +6,10 @@ import { Providers } from "@/components";
 
 export const metadata: Metadata = {
   title: {
-    template: "%s - Teslo | Shop",
-    default: "Home - Teslo | Shop",
+    template: "%s - Blabla Ya",
+    default: "Home - Blabla Ya",
   },
-  description: "Una tienda virtual de productos",
+  description: "tienda de lineas Moviles",
 };
 
 export default function RootLayout({
@@ -18,7 +18,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="es">
       <body className={inter.className}>
         <Providers>{children}</Providers>
       </body>

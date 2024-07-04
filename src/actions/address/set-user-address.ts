@@ -62,6 +62,6 @@ const createOrReplaceAddress = async (address: Address, userId: string) => {
 
   } catch (error) {
     console.log(error);
-    throw new Error("No se pudo grabar la dirección");
+    throw new Error("No se pudo guardar la dirección");
   }
 };

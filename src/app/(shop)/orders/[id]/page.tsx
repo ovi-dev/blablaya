@@ -55,7 +55,7 @@ export default async function OrdersByIdPage({ params }: Props) {
                 <div>
                   <p>{item.product.title}</p>
                   <p>
-                    ${item.price} x {item.quantity}
+                    €  {item.price} x {item.quantity}
                   </p>
                   <p className="font-bold">
                     Subtotal: {currencyFormat(item.price * item.quantity)}
@@ -99,7 +99,7 @@ export default async function OrdersByIdPage({ params }: Props) {
                 {currencyFormat(order!.subTotal)}
               </span>
 
-              <span>Impuestos (15%)</span>
+              <span>Impuestos (21%)</span>
               <span className="text-right">{currencyFormat(order!.tax)}</span>
 
               <span className="mt-5 text-2xl">Total:</span>

@@ -53,7 +53,7 @@ export default function CartPage() {
               <Link 
                 className="flex btn-primary justify-center"
                 href="/checkout/address">
-                Checkout
+                Procesar Pago
               </Link>
             </div>
 
