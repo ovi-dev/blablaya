@@ -31,7 +31,7 @@ export default async function Home({ searchParams }: Props) {
     <>
       <Title
         title="Tarifas Movil"
-        subtitle="Todas las Tarifas de Movil"
+        subtitle="Todas las Tarifas de Movil Fibra y TV"
         className="mb-2"
       />
 

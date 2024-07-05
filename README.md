@@ -14,7 +14,7 @@
 7. Correr el proyecto ```npm run dev```
 8. Limpiar el localStorage del navegador.
 
-
+9. Desplegar a la base de datos ```npx prisma migrate deploy```
 
 
 ## Correr en pr
