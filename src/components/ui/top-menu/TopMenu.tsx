@@ -21,14 +21,14 @@ export const TopMenu = () => {
 
 
   return (
-    <nav className="flex px-5 justify-between items-center w-full">
+    <nav className="flex px-5 justify-between items-center w-full text-lg">
       {/* Logo */}
       <div>
         <Link href="/">
-          <span className={`${titleFont.className } antialiased font-bold`}>
+          <span className={`${titleFont.className } antialiased font-bold text-2xl`}>
             Blabla
           </span>
-          <span> Ya</span>
+          <span className='text-2xl font-bold'> Ya</span>
         </Link>
       </div>
 
@@ -57,7 +57,7 @@ export const TopMenu = () => {
       {/* Search, Cart, Menu */}
       <div className="flex items-center">
         <Link href="/search" className="mx-2">
-          <IoSearchOutline className="w-5 h-5" />
+          <IoSearchOutline className="w-8 h-8" />
         </Link>
 
         <Link href={
@@ -71,13 +71,13 @@ export const TopMenu = () => {
                 {totalItemsInCart}
               </span>
             )}
-            <IoCartOutline className="w-5 h-5" />
+            <IoCartOutline className="w-8 h-8" />
           </div>
         </Link>
 
         <button
           onClick={openSideMenu}
-          className="m-2 p-2 rounded-md transition-all hover:bg-gray-100"
+          className="m-2 p-2 text-xl rounded-md transition-all hover:bg-gray-100"
         >
           Menú
         </button>

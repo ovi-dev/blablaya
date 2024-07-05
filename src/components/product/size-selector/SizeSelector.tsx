@@ -15,7 +15,7 @@ export const SizeSelector = ({ selectedSize, availableSizes, onSizeChanged }: Pr
 
   return (
     <div className="my-5">
-      <h3 className="font-bold mb-4">Tarifas disponibles</h3>
+      <h3 className="font-bold mb-4">Selecciona tu Tarifas</h3>
 
       <div className="flex">
 
@@ -26,7 +26,7 @@ export const SizeSelector = ({ selectedSize, availableSizes, onSizeChanged }: Pr
               onClick={ () => onSizeChanged(size) }
               className={
                 clsx(
-                  "mx-2 hover:underline text-lg",
+                  "mx-2 hover:bg-sky-500 btn-primary text-base border-spacing-3 ",
                   {
                     'underline': size === selectedSize
                   }

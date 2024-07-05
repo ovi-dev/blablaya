@@ -52,7 +52,7 @@ export const ProductsInCart = () => {
               { product.size } - {product.title}
             </Link>
             
-            <p>${product.price}</p>
+            <p>{product.price} €</p>
             <QuantitySelector 
               quantity={ product.quantity } 
               onQuantityChanged={ quantity => updateProductQuantity(product, quantity) }

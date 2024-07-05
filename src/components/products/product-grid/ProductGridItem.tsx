@@ -24,8 +24,8 @@ export const ProductGridItem = ( { product }: Props ) => {
           src={ `/products/${ displayImage }` }
           alt={ product.title }
           className="w-full object-cover rounded"
-          width={ 500 }
-          height={ 500 }
+          width={ 300 }
+          height={ 300 }
           onMouseEnter={ () => setDisplayImage( product.images[1] )  }
           onMouseLeave={ () => setDisplayImage( product.images[0] ) }
         />
@@ -37,7 +37,7 @@ export const ProductGridItem = ( { product }: Props ) => {
           href={ `/product/${ product.slug }` }>
           { product.title }
         </Link>
-        <span className="font-bold">${ product.price }</span>
+        <span className="font-bold text-center">{ product.price } €</span>
       </div>
 
     </div>
