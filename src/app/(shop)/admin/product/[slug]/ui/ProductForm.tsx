@@ -13,7 +13,7 @@ interface Props {
   categories: Category[];
 }
 
-const sizes = ["S_10" , "M_15" , "L_20" , "XL_40" , "XL_50"];
+const sizes = ["L_10" , "L_15" , "L_20" , "L_40" , "L_50"];
 
 interface FormInputs {
   title: string;
@@ -23,7 +23,7 @@ interface FormInputs {
   inStock: number;
   sizes: string[];
   tags: string;
-  gender: 'contrato' | 'prepago' | 'fibra_tv';
+  gender: 'contrato' | 'prepago' | 'fibra_tv'| 'otros';
   categoryId: string;
 
   images?: FileList;
@@ -156,10 +156,10 @@ export const ProductForm = ({ product, categories }: Props) => {
             {...register("gender", { required: true })}
           >
             <option value="">[Seleccione]</option>
-            <option value="men">Contrato</option>
-            <option value="women">Prepago</option>
-            <option value="kid">Fibra</option>
-            <option value="unisex">Fitra TV</option>
+            <option value="contrato">Contrato</option>
+            <option value="prepago">Prepago</option>
+            <option value="fibra_tv">Fibra</option>
+            <option value="otros">Fitra TV</option>
           </select>
         </div>
 
@@ -230,8 +230,8 @@ export const ProductForm = ({ product, categories }: Props) => {
                 <ProductImage
                   alt={product.title ?? ""}
                   src={ image.url }
-                  width={300}
-                  height={300}
+                  width={200}
+                  height={200}
                   className="rounded-t shadow-md"
                 />
 

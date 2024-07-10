@@ -11,7 +11,7 @@ interface SeedProduct {
   tags: string[];
   title: string;
   type: ValidTypes;
-  gender: 'contrato' | 'prepago' | 'fibra_tv';
+  gender: 'contrato' | 'prepago' | 'fibra_tv'| 'otros';
 }
 
 interface SeedUser {
@@ -23,8 +23,8 @@ interface SeedUser {
 
 
 
-type ValidSizes = "S_10" | "M_15" | "L_20" | "XL_40" | "XL_50";
-type ValidTypes = 'vodafone' | 'movistar' | 'orange' | 'digi';
+type ValidSizes = "L_10" | "L_15" | "L_20" | "L_40" | "L_50";
+type ValidTypes = 'vodafone' | 'movistar' | 'orange' | 'digi'| 'Mas Movil'| 'JazzTel'| 'Simyo';
                   //'shirts' | 'pants' | 'hoodies' | 'hats';
 
 interface SeedData {
@@ -57,7 +57,7 @@ export const initialData: SeedData = {
 
 
   categories: [
-    'vodafone', 'movistar', 'orange', 'digi'
+    'Vodafone', 'Movistar', 'Orange', 'Digi'
   ],
   products: [
     {
@@ -68,10 +68,10 @@ export const initialData: SeedData = {
       ],
       inStock: 100,
       price: 15,
-      sizes: [ "S_10" ],
+      sizes: [ "L_10" ],
       slug: "prepago_vodafone",
       type: 'vodafone',
-      tags: [ 'sweatshirt' ],
+      tags: [ 'prepago' ],
       title: "Tarifa Contrato Vodafone",
       gender: 'contrato'
     },
@@ -83,33 +83,16 @@ export const initialData: SeedData = {
         'logovodafone.jpg',
         'logovodafone.jpg',
       ],
-      inStock: 100,
-      price: 50,
-      sizes: [ "XL_50" ],
+      inStock: 12,
+      price: 1,
+      sizes: [ "L_50" ],
       slug: "prepago_Orange_50",
       type: 'orange',
-      tags: [ 'hoodie' ],
+      tags: [ 'prepago' ],
       title: "Prepago Vodafone S",
       gender: 'prepago'
     },
-    
-
-    {
-      description: "Fibra mas Tv Gratis.",
-      images: [
-        'logovodafone.jpg',
-        'logovodafone.jpg',
-      ],
-      inStock: 10,
-      price: 30,
-      sizes: [ "S_10", ],
-      slug: "Tv_Gratis",
-      type: 'vodafone',
-      tags: [ 'shirt' ],
-      title: "Tv Gratis mas Fibra mas Tv",
-      gender: 'fibra_tv'
-    },
-    
+  
     
   ]
 };

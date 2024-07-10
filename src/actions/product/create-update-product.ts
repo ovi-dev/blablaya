@@ -28,12 +28,6 @@ const productSchema = z.object({
   gender: z.nativeEnum(Gender), 
 });
 
-
-
-
-
-
-
 export const createUpdateProduct = async( formData: FormData ) => {
 
   const data = Object.fromEntries( formData );

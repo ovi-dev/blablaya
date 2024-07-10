@@ -1,5 +1,5 @@
 -- CreateEnum
-CREATE TYPE "Size" AS ENUM ('S_10', 'M_15', 'L_20', 'XL_40', 'XL_50');
+CREATE TYPE "Size" AS ENUM ('L_10', 'L_15', 'L_20', 'L_40', 'L_50');
 
 -- CreateEnum
 CREATE TYPE "Gender" AS ENUM ('contrato', 'prepago', 'fibra_tv');

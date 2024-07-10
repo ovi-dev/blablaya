@@ -9,11 +9,11 @@ datasource db {
 
 enum Size {
   
-  S_10
-  M_15
+  L_10
+  L_15
   L_20
-  XL_40
-  XL_50
+  L_40
+  L_50
 
 }
 
@@ -22,6 +22,7 @@ enum Gender {
   contrato
   prepago
   fibra_tv
+  otros
   
 }
 

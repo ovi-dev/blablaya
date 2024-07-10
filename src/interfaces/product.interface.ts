@@ -30,6 +30,6 @@ export interface ProductImage {
 }
 
 
-type Category = 'contrato' | 'prepago' | 'fibra_tv';
-export type Size = "S_10" | "M_15" | "L_20" | "XL_40" | "XL_50";
-export type Type = 'vodafone' | 'movistar' | 'orange' | 'digi';
+ type Category = 'contrato' | 'prepago' | 'fibra_tv'| 'otros';
+export type Size = "L_10" | "L_15" | "L_20" | "L_40" | "L_50";
+export type Type = 'vodafone' | 'movistar' | 'orange' | 'digi'| 'Mas Movil'| 'JazzTel'| 'Simyo';

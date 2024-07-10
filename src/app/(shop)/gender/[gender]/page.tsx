@@ -38,8 +38,8 @@ export default async function GenderByPage({ params, searchParams }: Props) {
   const labels: Record<string, string>  = {
     'contrato': 'contrato',
     'prepago': 'prepago',
-    'fibra_tv': 'TV fibra',
-    'unisex': 'para todos'
+    'fibra_tv': 'TV fibra'
+    
   }
 
   // if ( id === 'kids' ) {

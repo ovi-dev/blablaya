@@ -34,11 +34,11 @@ export const ProductsInCart = () => {
         <div key={ `${ product.slug }-${ product.size }`  } className="flex mb-5">
           <Image
             src={`/products/${product.image }`}
-            width={100}
-            height={100}
+            width={50}
+            height={50}
             style={{
-              width: "100px",
-              height: "100px",
+              width: "50px",
+              height: "50px",
             }}
             alt={product.title}
             className="mr-5 rounded"
