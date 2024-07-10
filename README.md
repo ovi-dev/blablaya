@@ -18,3 +18,10 @@
 
 
 ## Correr en pr
+
+
+DATABASE_URL	
+postgresql://neondb_owner:******@ep-bitter-wave-a5jpab5x-pooler.us-east-2.aws.neon.tech/neondb?sslmode=require
+
+DATABASE_URL_UNPOOLED	
+postgresql://neondb_owner:******@ep-bitter-wave-a5jpab5x.us-east-2.aws.neon.tech/neondb?sslmode=require
