@@ -16,6 +16,7 @@
 9. Desplegar a la base de datos ```npx prisma migrate deploy```
 
 
-## Correr en pr
+## Diseñe esta página para un amigo y su pequeño negocio utilizando Nextjs allí aprendí que las rutas son mucho más fáciles de crear y mantener, también utilice tailwindcss, unos componentes del mismo, contenedor de Docker compose, prisma para la base de datos en PostgreSQL y algunos servicion de Vercel ![image]
+
 
 
